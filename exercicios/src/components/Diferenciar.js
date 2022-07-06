@@ -11,7 +11,7 @@ export default props => {
         return <Text style={Estilo.txtG}>iOS</Text>
     }
     else{
-        return <Text style={Estilo.txtG}>Eita!!!</Text>
+        return <Text style={Estilo.txtG}>{Platform.OS}</Text>
     }
         
 
