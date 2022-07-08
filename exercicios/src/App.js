@@ -17,13 +17,25 @@ import ParImpar from './components/ParImpar'
 import Familia from './components/relacao/Familia'
 import Membro from './components/relacao/Membro'
 import UsuarioLogado from './components/UsuarioLogado'
+import ListaProdutos from './components/produtos/ListaProdutos'
+import ListaProdutosV2 from './components/produtos/ListaProdutosV2'
+import DigiteSeuNome from './components/DigiteSeuNome'
+import FlexboxV4 from './components/layout/FlexboxV4'
+import Mega from './components/mega/Mega'
 
 export default () => (
     <SafeAreaView style={style.App}>
         
-        <UsuarioLogado usuario={{ nome: 'gui', email: 'gui@gui.com' }} />
-
+        <Mega qtdeNumeros={6} />
+        
         {/*
+        <FlexboxV4 />
+        <FlexboxV3 />
+        <FlexboxV1 />
+        <DigiteSeuNome />
+        <ListaProdutosV2 />
+        <ListaProdutos />
+        <UsuarioLogado usuario={{ nome: 'gui', email: 'gui@gui.com' }} />
         <Familia>
             <Membro nome="Bia" sobrenome="Arruda" />
             <Membro nome="Carlos" sobrenome="Arruda" />
